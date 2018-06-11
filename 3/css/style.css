@@ -1,0 +1,33 @@
+html, body {
+  width: 100%; height: 100%;
+}
+
+body {
+  background: url(https://www.filterforge.com/filters/219.jpg), url(http://www.shedexpedition.com/wp-content/uploads/2014/05/K2-Mountain-2.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover,cover;
+  background-size: cover,cover;
+  
+   -webkit-background-blend-mode: multiply, normal;
+   background-blend-mode: multiply, normal;
+  
+  -webkit-animation: bgAnim 10s linear infinite;
+  animation: bgAnim 10s linear infinite;
+}
+
+@keyframes bgAnim {
+  from {
+    background-position: 0px 0%, center center;
+  }
+  to {
+    background-position: -512px 0%, center center;
+  }
+}
+
+@-webkit-keyframes bgAnim {
+  from {
+    background-position: 0px 0%, center center;
+  }
+  to {
+    background-position: -512px 0%, center center;
+  }
+}

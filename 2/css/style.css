@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+button:focus {
+  outline: none;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  flex-direction: row;
+}
+
+.screen {
+  box-sizing: border-box;
+  display: flex;
+  width: auto;
+  height: 100%;
+  padding: 16px;
+  flex: 1;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  background-blend-mode: multiply;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: flex 1s ease-in-out;
+}
+
+.left {
+  
+   background:url(../img/left.jpg);
+  border-right: 2px solid #fff;
+}
+
+.right {
+  background: url(../img/right.jpg);
+  background-blend-mode: multiply;
+  border-left: 2px solid #fff;
+}
+
+h1 {
+  display: block;
+  width: auto;
+  color: #fff;
+  word-spacing: normal;
+  white-space: nowrap;
+  font-size: 3rem;
+  line-height: 3.5rem;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  margin: 36px 0 78px;
+}
+
+h1, button {
+  -webkit-font-smoothing: antialiased;
+}
+
+.right h1 {
+  color: #fff;
+}
+
+.left button, .left h1 {
+  font-family: Calibri;
+  color:#00;
+  font-weight: bold;
+}
+
+.right button, .right h1 {
+  font-family: Calibri;
+  font-weight: bold;
+}
+
+button {
+  padding: 12px 36px;
+  border: 0;
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: 13px;
+  line-height: 14px;
+  background-color: #fff;
+}
+
+.right button {
+  font-size: 14px;
+}
