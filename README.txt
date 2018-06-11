@@ -1,3 +1,6 @@
-A Pen created at CodePen.io. You can find this one at https://codepen.io/smlsvnssn/pen/pEQJpR.
+# AirPal - Travel Guide
 
- 
+Informs various stages in the onboarding of flights, mainly connecting flights.
+Checklist of documents
+
+IBS IATA Travel Hackathon
